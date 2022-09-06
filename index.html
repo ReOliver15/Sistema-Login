@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Página Principal</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <a href="contato.html">Contato</a>
+        <a href="projetos.html">Projetos</a>
+        
+        <h2>Login</h2>
+        <form>
+
+            Login:<br>
+            <input type="text" name="login"><br>
+
+            Senha:<br>
+            <input type="password" name="senha"><br> <!--input significa entrada (entrada d dados)-->
+
+            <input type="button" value="Logar">  <!--o botao vai ter o nome de Logar/ o submit eh o enviar esse formulario-->
+
+        </form>
+
+            <h2>Cadastre-se</h2>
+
+            <form>
+            Login:<br>
+            <input type="text" name="login"><br>
+
+            sexo: <br>
+            <input type="radio" name="sexo" value="M"> Masculino<br>  <!--radio é aquele botao em formato redondo-->
+            <input type="radio" name="sexo" value="F"> Feminino<br><br>
+
+            Interesses<br>
+            <input type="checkbox" name="interesses">Futebol<br><!--checkbox é a caixinha com o V marcado-->
+            <input type="checkbox" name="interesses">Cursos<br>
+            <input type="checkbox" name="interesses">Moda<br><br>
+        
+            Estado<br>
+            <select name="estado">  <!--esse select é o "menu" cm varias opçoes p selecionar apenas uma delas-->
+                <!--pelo name estado e pelo value saber qual estado o usuario escolheu -->
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="am">AM</option>
+                <option value="sc">SC</option>
+            </select><br><br>
+        
+            Observações: <br> <!--serve pro usuario digitar mais texto-->
+            <textarea></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+        
+        </form>
+
+        <img src = "imagens/ferrari.jpg">
+
+    </body>
+    </html>

@@ -1,0 +1,12 @@
+a{ /* esse aqui é o link*/
+    text-decoration: none;
+    padding: 10px;
+}
+a:link {
+    color: royalblue;
+    text-decoration: none;
+  }
+  a:hover { /* quando eu passar o mouse*/
+    color: pink;
+    text-decoration: none;
+  }
